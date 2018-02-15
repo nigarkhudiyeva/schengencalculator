@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+ </head>
+  <body>
+  <table id="tab">
+    <thead>
+      <tr>
+        <th>Entry</th>
+        <th>Exit</th>
+        <th>Duration</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <input   id="enterdate" type="text">
+        </td>
+        <td>
+          <input  onchange="calculate(this.parentElement.parentElement)" id="leavedate"  type="text">
+        </td>
+        <td id="numDay">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button  onclick="addRow()" type="button" name="+Add a stay">+Add a stay</button>
+  </body>
+</html>

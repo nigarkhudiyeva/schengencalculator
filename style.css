@@ -1,0 +1,36 @@
+thead{
+  background-color:   orange;
+  color: white;
+}
+
+thead  tr th {
+  padding: 5px;
+  width: 200px;
+  text-align: left;
+
+}
+
+tbody tr td{
+  text-align: left;
+}
+input {
+   border-radius: 4px;
+   padding: 5px 5px;
+   margin: 8px 0;
+   box-sizing: border-box;
+}
+table{
+  border-collapse: collapse;
+}
+button{
+ margin-left: 525px;
+ border: none;
+ color: blue;
+ background-color:white;
+ text-decoration: underline;
+ cursor: pointer;
+ font-size: 18px;
+}
+button:hover{
+  color: #07f;
+}
